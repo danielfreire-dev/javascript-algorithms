@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="17 26 320 320">
+ <title>Hamiltonian path 3d</title>
+ <desc>Perspective projection of a dodecahedron with a Hamiltion cycle through its vertices by CMG Lee based on http://commons.wikimedia.org/wiki/File:Dodecahedron_light_blue.svg </desc>
+ <defs>
+  <radialGradient id="grad_vertex" cx="50%" cy="50%" r="50%" fx="33%" fy="25%">
+   <stop offset="25%" stop-color="#999999"/>
+   <stop offset="75%" stop-color="#000000"/>
+  </radialGradient>
+  <circle id="vertex" cx="0" cy="0" r="10" stroke="none" fill="url(#grad_vertex)"/>
+ </defs>
+ <circle cx="0" cy="0" r="99999" fill="#ffffff"/>
+ <g fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(-5.463504,4.301049)">
+   <path d="M 34.891861,160.69211 L 93.807209,81.721634 L 146.66165,122.63282 L 130.32064,212.38846 L 64.334218,243.85113 Z"/>
+   <path d="M 146.66165,122.81139 L 238.76410,111.87828 L 277.44577,197.05760 L 208.60747,258.67691 L 130.32064,212.56703 Z"/>
+   <path d="M 93.807209,81.721634 L 162.34966,36.443343 L 260.15588,60.033992 L 238.76410,111.87828 L 146.84022,122.81139 Z"/>
+   <path d="M 260.15587,60.033992 L 324.23929,126.99993 L 331.16243,217.61779 L 277.44577,197.05760 L 238.76411,112.02622 Z"/>
+   <path d="M 64.512789,243.85113 L 108.45442,321.48493 L 205.25049,326.86220 L 208.60746,258.67691 L 130.11143,212.56703 Z"/>
+   <path d="M 277.41512,197.05760 L 331.16243,217.58715 L 284.66477,307.52137 L 205.07193,326.86220 L 208.60746,258.70754 Z"/>
+  </g>
+  <use xlink:href="#vertex" transform="translate(280,312)"/>
+  <use xlink:href="#vertex" transform="translate(200,332)"/>
+  <use xlink:href="#vertex" transform="translate(202,263)"/>
+  <use xlink:href="#vertex" transform="translate(125,217)"/>
+  <use xlink:href="#vertex" transform="translate(141,127)"/>
+  <use xlink:href="#vertex" transform="translate(233,117)"/>
+  <use xlink:href="#vertex" transform="translate(272,202)"/>
+  <use xlink:href="#vertex" transform="translate(326,222)"/>
+  <use xlink:href="#vertex" transform="translate(319,131)"/>
+  <use xlink:href="#vertex" transform="translate(255, 65)"/>
+  <use xlink:href="#vertex" transform="translate(157, 41)"/>
+  <use xlink:href="#vertex" transform="translate( 88, 86)"/>
+  <use xlink:href="#vertex" transform="translate( 29,165)"/>
+  <use xlink:href="#vertex" transform="translate( 58,247)"/>
+  <use xlink:href="#vertex" transform="translate(103,325)"/>
+  <path d="M 200,332 L 202,263 L 125,217 L 141,127 L 233,117 L 272,202 L 326,222" stroke="#ff0000" stroke-opacity="0.75" stroke-width="8"/>
+  <g fill-opacity="0.75">
+   <path d="M 156.74036,40.287001 L 87.692834,86.458152 L 29.251920,165.25005 L 54.505733,183.78994 L 145.74597,96.023963 Z" fill="#ffffff"/>
+   <path d="M 156.74035,40.526849 L 254.72515,64.622577 L 318.66063,131.26201 L 258.91369,161.24008 L 145.89391,95.728096 Z" fill="#ffffff"/>
+   <path d="M 29.134625,165.07149 L 54.505733,183.78994 L 107.18161,298.26369 L 102.81448,325.38987 L 58.041267,247.42955 Z" fill="#dddddd"/>
+   <path d="M 107.18161,298.26369 L 232.47115,287.83565 L 279.68310,311.75281 L 199.61056,331.59872 L 102.84513,325.35924 Z" fill="#cccccc"/>
+   <path d="M 258.58718,161.41865 L 318.80856,131.23138 L 325.55313,222.32368 L 279.76975,311.54361 L 232.68037,287.83565 Z" fill="#dddddd"/>
+   <path d="M 146.10311,95.697458 L 258.79640,161.06151 L 232.61909,287.65708 L 107.36018,298.29432 L 54.505733,183.85122 Z" fill="#eeeeee"/>
+  </g>
+  <use xlink:href="#vertex" transform="translate(107,298)"/>
+  <use xlink:href="#vertex" transform="translate( 55,184)"/>
+  <use xlink:href="#vertex" transform="translate(146, 96)"/>
+  <use xlink:href="#vertex" transform="translate(259,161)"/>
+  <use xlink:href="#vertex" transform="translate(233,288)"/>
+  <path d="M 325.55313,222.32368 L 318.80856,131.23138 L 254.72515,64.622577 L 156.74035,40.526849 L 87.692834,86.458152 L 29.251920,165.25005 L 58.041267,247.42955 L 102.81448,325.38987 L 107.36018,298.29432 L 54.505733,183.85122 L 146.10311,95.697458 L 258.79640,161.06151 L 232.61909,287.65708 L 279.76975,311.54361 L 199.61056,331.59872" stroke="#ff0000" stroke-opacity="0.75" stroke-width="8"/>
+ </g>
+</svg>
