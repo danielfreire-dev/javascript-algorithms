@@ -1,0 +1,2 @@
+{"rule":"ASSIGN","sentence":"^\\QInterpolation search is an algorithm for searching for a key in an array that has been ordered by numerical values assigned to the keys (key values).\\E$"}
+{"rule":"PARTICULAR","sentence":"^\\QFor example, we have a sorted array of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q uniformly distributed values \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, and we need to write a function to search for a particular element \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q in the array.\\E$"}
