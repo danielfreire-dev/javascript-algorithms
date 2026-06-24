@@ -59,22 +59,22 @@
  * @param {string} s
  * @return {number}
  */
+
+/* Input: s = "pwwkew" */
 const lengthOfLongestSubstring = function (s) {
-  let uniqueString = [];
+  const seen = new Set();
   let maxLength = 0;
+  let left = 0;
 
-  for (let i = 0; i < s.length; i++) {
-    const char = s[i];
-    const index = uniqueString.indexOf(char);
-
-    if (index !== -1) {
-      // If the character is found, remove all elements up to and including the duplicate
-      uniqueString = uniqueString.slice(index + 1);
+  for (let right = 0; right < s.length; right++) {
+    const char = s[right];
+    // If the character is already in the Set, move the left pointer
+    while (seen.has(char)) {
+      seen.delete(s[left]);
+      left++;
     }
-
-    uniqueString.push(char);
-    // Update maxLength if the current substring is longer
-    maxLength = Math.max(maxLength, uniqueString.length);
+    seen.add(char);
+    maxLength = Math.max(maxLength, right - left + 1);
   }
 
   return maxLength;
