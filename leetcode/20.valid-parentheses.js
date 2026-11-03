@@ -86,9 +86,7 @@ var isValid = function (s) {
 
   for (let i = 0; i < s.length; i++) {
     let char = s[i];
-    console.log('char', char);
-    console.log('stack', stack);
-    console.log('pairsHashMap[char]', pairsHashMap[char]);
+
     if (pairsHashMap[char]) {
       stack.push(char);
     } else if (pairsHashMap[stack.pop()] !== char) {
